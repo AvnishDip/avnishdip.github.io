@@ -91,43 +91,46 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Our Services</h2>
-            <div class="row">
-                <!-- Service 1 -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Full Inspection</h5>
-                            <p class="card-text">24-hour Guarantee Fix, Professional Service.</p>
-                            <p class="card-text">$95 + Tax</p>
-                        </div>
+<section id="services" class="py-5" style="background-color: #F1E5D1;">
+    <div class="container">
+        <h2 class="text-center">Our Services</h2>
+        <div class="row">
+            <!-- Service 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Full Inspection</h5>
+                        <p class="card-text">24-hour Guarantee Fix, Professional Service.</p>
+                        <p class="card-text">$95 + Tax</p>
+                        <a href="#booking" class="btn" style="background-color: #808836; color: white;">Book Now</a>
                     </div>
                 </div>
-                <!-- Service 2 -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Segway Licensed Repair</h5>
-                            <p class="card-text">Full Inspection, 24-hour Guarantee Fix, Professional Service.</p>
-                            <p class="card-text">$80 + Tax</p>
-                        </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Segway Licensed Repair</h5>
+                        <p class="card-text">Full Inspection, 24-hour Guarantee Fix, Professional Service.</p>
+                        <p class="card-text">$80 + Tax</p>
+                        <a href="#booking" class="btn" style="background-color: #808836; color: white;">Book Now</a>
                     </div>
                 </div>
-                <!-- Service 3 -->
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Premium Repair</h5>
-                            <p class="card-text">Full Inspection, 24-hour Guarantee Fix, Professional Service, Repairs under $100 are free.</p>
-                            <p class="card-text">$120 + Tax</p>
-                        </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Premium Repair</h5>
+                        <p class="card-text">Full Inspection, 24-hour Guarantee Fix, Professional Service, Repairs under $100 are free.</p>
+                        <p class="card-text">$120 + Tax</p>
+                        <a href="#booking" class="btn" style="background-color: #808836; color: white;">Book Now</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Products Section -->
     <section id="products" class="py-5">
