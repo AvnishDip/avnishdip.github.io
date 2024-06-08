@@ -7,6 +7,7 @@
     <style>
         body {
             padding-top: 56px;
+            background: #f1e5d1;
         }
         .footer {
             background: #f1e5d1;
