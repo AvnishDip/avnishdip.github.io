@@ -139,7 +139,7 @@
                 <!-- Product 1 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="[https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/6cb9205960444dbdf7e3281d16289d29.jpg?imageView2/2/w/800/q/70/format/webp)" class="card-img-top" alt="Product 1">
+                        <img src="[]" class="card-img-top" alt="Product 1">
                         <div class="card-body">
                             <h5 class="card-title">Mountain Bike Accessories</h5>
                             <p class="card-text">$5.99</p>
@@ -150,7 +150,7 @@
                 <!-- Product 2 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 2">
+                        <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/6cb9205960444dbdf7e3281d16289d29.jpg?imageView2/2/w/800/q/70/format/webp" class="card-img-top" alt="Product 2">
                         <div class="card-body">
                             <h5 class="card-title">Bike Fenders Adjustable</h5>
                             <p class="card-text">$12.99</p>
