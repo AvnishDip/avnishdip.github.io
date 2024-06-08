@@ -139,7 +139,7 @@
                 <!-- Product 1 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/6cb9205960444dbdf7e3281d16289d29.jpg?imageView2/2/w/800/q/70/format/webp" class="card-img-top" alt="Product 1">
+                    <img src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/6cb9205960444dbdf7e3281d16289d29.jpg?imageView2/2/w/800/q/70/format/webp" class="card-img-top" alt="Product 1">
                         <div class="card-body">
                             <h5 class="card-title">Mountain Bike Accessories</h5>
                             <p class="card-text">$5.99</p>
@@ -161,7 +161,7 @@
                 <!-- Product 3 -->
                 <div class="col-md-4">
                     <div class="card mb-4">
-                        src="https://m.media-amazon.com/images/I/61R0xWwsB3S.__AC_SX300_SY300_QL70_ML2_.jpg" class="card-img-top" alt="Product 3">
+                        <img src="https://m.media-amazon.com/images/I/61R0xWwsB3S.__AC_SX300_SY300_QL70_ML2_.jpg" class="card-img-top" alt="Product 3">
                         <div class="card-body">
                             <h5 class="card-title">Ergonomic Design Bike Grips</h5>
                             <p class="card-text">$21.99</p>
