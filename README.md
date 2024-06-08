@@ -10,7 +10,7 @@
             background: #f1e5d1;
         }
         .footer {
-            background: #f1e5d1;
+            background: #808836;
             padding: 20px 0;
         }
     </style>
