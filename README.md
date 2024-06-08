@@ -26,19 +26,19 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link" href="#products">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Locations</a>
+                        <a class="nav-link" href="#locations">Locations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cart</a>
+                        <a class="nav-link" href="#booking">Book Appointment</a>
                     </li>
                 </ul>
             </div>
@@ -54,11 +54,18 @@
         </div>
     </header>
 
+    <!-- About Us Section -->
+    <section id="about-us" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">Le Vélo is your trusted destination for all things cycling and e-mobility since 2005. Founded by avid cyclist and local entrepreneur, Alex Thompson, our shop began as a small garage operation dedicated to providing high-quality bike repair services to our community. Over the years, we've grown into a full-service repair center specializing in e-bikes, traditional bikes, and e-scooters. Our mission has always been to keep Ottawa moving safely and efficiently, combining expert craftsmanship with a passion for innovation. Whether you're an everyday commuter or a weekend warrior, we’re here to keep your ride in top condition.</p>
+        </div>
+    </section>
+
     <!-- Services Section -->
-    <section id="services" class="py-5">
+    <section id="services" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center">Our Services</h2>
-            <p class="text-center">Quality repairs and maintenance for all types of bikes. We sell spare parts and accessories.</p>
             <div class="row">
                 <!-- Service 1 -->
                 <div class="col-md-4">
@@ -95,7 +102,7 @@
     </section>
 
     <!-- Products Section -->
-    <section id="products" class="py-5 bg-light">
+    <section id="products" class="py-5">
         <div class="container">
             <h2 class="text-center">Our Products</h2>
             <div class="row">
@@ -136,11 +143,47 @@
         </div>
     </section>
 
+    <!-- Experts Section -->
+    <section id="experts" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Our Experts</h2>
+            <div class="row">
+                <!-- Expert 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">Bike Mechanic Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Expert 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text">E-Bike Repair Specialist</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Expert 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">Alex Thompson</h5>
+                            <p class="card-text">Founder and Chief Technician</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Booking Form Section -->
     <section id="booking" class="py-5">
         <div class="container">
             <h2 class="text-center">Book an Appointment</h2>
-            <form>
+            <form id="bookingForm">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="firstName">First Name</label>
@@ -156,11 +199,32 @@
                     <input type="email" class="form-control" id="email" placeholder="email@domain.com">
                 </div>
                 <div class="form-group">
+                    <label for="service">Select Service</label>
+                    <select class="form-control" id="service">
+                        <option>Full Inspection - $95 + Tax</option>
+                        <option>Segway Licensed Repair - $80 + Tax</option>
+                        <option>Premium Repair - $120 + Tax</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="expert">Select Expert</label>
+                    <select class="form-control" id="expert">
+                        <option>John Doe - Bike Mechanic Specialist</option>
+                        <option>Jane Smith - E-Bike Repair Specialist</option>
+                        <option>Alex Thompson - Chief Technician</option>
+                    </select>
+                </div>
+                <div class="form-group">
                     <label for="bookingTime">Time of Booking</label>
                     <input type="datetime-local" class="form-control" id="bookingTime">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+            <div id="confirmation" class="mt-3" style="display: none;">
+                <div class="alert alert-success" role="alert">
+                    Your booking has been confirmed!
+                </div>
+            </div>
         </div>
     </section>
 
@@ -177,5 +241,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('bookingForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            document.getElementById('confirmation').style.display = 'block';
+        });
+    </script>
 </body>
 </html>
