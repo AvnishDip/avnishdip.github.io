@@ -19,7 +19,6 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            background: #808836;
             <a class="navbar-brand" href="#">Le Vélo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,6 +47,8 @@
 
     <!-- Header Section -->
     <header class="bg-primary text-white text-center py-5">
+    background: #808836;
+
         <div class="container">
             <h1>Welcome to Le Vélo</h1>
             <p>Your solution for all bike, e-scooter, and e-bike repair and maintenance needs in Ottawa.</p>
