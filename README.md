@@ -9,7 +9,7 @@
             padding-top: 56px;
         }
         .footer {
-            background: #f8f9fa;
+            background: #f1e5d1;
             padding: 20px 0;
         }
     </style>
