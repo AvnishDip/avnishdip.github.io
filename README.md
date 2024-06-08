@@ -47,8 +47,6 @@
 
     <!-- Header Section -->
     <header class="bg-primary text-white text-center py-5">
-    background: #808836;
-
         <div class="container">
             <h1>Welcome to Le Vélo</h1>
             <p>Your solution for all bike, e-scooter, and e-bike repair and maintenance needs in Ottawa.</p>
@@ -68,6 +66,7 @@
     <section id="services" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center">Our Services</h2>
+            background: #f1e5d1;
             <div class="row">
                 <!-- Service 1 -->
                 <div class="col-md-4">
